@@ -1,2 +1,0 @@
-#!/bin/bash
-[ -n "$PYCODE" ] && echo "$PYCODE" | python3 -
