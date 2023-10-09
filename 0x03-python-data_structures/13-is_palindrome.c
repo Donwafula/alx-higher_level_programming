@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
 
 /**
  * reverse_linked_list - Reverses a linked list in place.
