@@ -2,6 +2,7 @@
 """Solves the N-queens puzzle."""
 import sys
 
+
 def init_board(n):
     """Initialize an `n`x`n` chessboard."""
     return [[' ' for _ in range(n)] for _ in range(n)]
@@ -48,6 +49,7 @@ def recursive_solve(board, row, queens, solutions):
             solutions = recursive_solve(tmp_board, row + 1, queens + 1, solutions)
 
     return solutions
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2 or not sys.argv[1].isdigit() or int(sys.argv[1]) < 4:
