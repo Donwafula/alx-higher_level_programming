@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def add_attribute(obj, attribute, value):
     print(obj)
     if isinstance(obj, type):
