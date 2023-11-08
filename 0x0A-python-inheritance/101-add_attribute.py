@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' add_attribute function ''''
+""" add_attribute function """
 
 
 def add_attribute(obj, name, value):
